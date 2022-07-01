@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 3.2)
+project("Processes")
+
+set(CMAKE_CXX_COMPILER "g++") #setting compiler to g++
+set(CMAKE_CXX_FLAGS_RELEASE_INIT "-Wall -Wextra") #-Wall -Wextra
+
+# add_executable(${PROJECT_NAME} "1/pidname.cpp")
+# add_executable(${PROJECT_NAME} "2/waitchild.cpp")
+# add_executable(${PROJECT_NAME} "3/unnamedpipes.cpp")
+# add_executable(${PROJECT_NAME} "4/processtypes.cpp")
+add_executable(${PROJECT_NAME} "5/namedpipes.cpp")
