@@ -4,10 +4,14 @@ project("Processes")
 set(CMAKE_CXX_COMPILER "g++") #setting compiler to g++
 set(CMAKE_CXX_FLAGS_RELEASE_INIT "-Wall -Wextra") #-Wall -Wextra
 
-# add_executable(${PROJECT_NAME} "1/pidname.cpp")
+add_executable(${PROJECT_NAME} "1/pidname.cpp")
 # add_executable(${PROJECT_NAME} "2/waitchild.cpp")
 # add_executable(${PROJECT_NAME} "3/unnamedpipes.cpp")
 # add_executable(${PROJECT_NAME} "4/processtypes.cpp")
 # add_executable(${PROJECT_NAME} "5/namedpipes.cpp")
 # add_executable(${PROJECT_NAME} "6/twowaycommunication.cpp")
-add_executable(${PROJECT_NAME} "7/processmemory.cpp")
+# add_executable(${PROJECT_NAME} "7/processmemory.cpp")
+# add_executable(${PROJECT_NAME} "8/replacingwholeprocess.cpp")
+# add_executable(${PROJECT_NAME} "9/simulatingpipeoperator.cpp")
+# add_executable(${PROJECT_NAME} "10/multiplepipes.cpp")
+# add_executable(${PROJECT_NAME} "11/multiplesignals.cpp")
